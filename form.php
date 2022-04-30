@@ -9,16 +9,16 @@
     foreach ($username as $name){
         if(strcasecmp($name,$usernam)==0){
             echo "same username";
-            return true;
+            return false;
         }
     }
     if($username==""||$name==""||$password==""||$password1==""||$college==""){
         echo "Please fill all the fields properly";
-        return true;
+        return false;
     }
     else if(strcmp($password,$password1)!=0){
         echo "Password dont match";
-        return true;
+        return false;
     }
     else{
         echo "Successfully submitted";

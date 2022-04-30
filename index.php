@@ -78,13 +78,13 @@
                               <div class="fieldWrapper">
                                   <label for="id_username" class="down">Username</label>
                                   <input type="text" name="username" data-id="1" class="form-control textinput" onfocus="move()" autocomplete="off" maxlength="150" autofocus required id="id_username" onkeyup="isavail(this.value,this.getAttribute('data-id'))">
-                                  <p style="color:red;font-weight:bold"><span id="1"></span></p>
+                                  <p style="color:blue;font-weight:bold"><span id="1"></span></p>
                               </div>
                               
                               <div class="fieldWrapper">
                                       <label for="id_email" class="down">Name</label>
                                       <input type="text" name="name" data-id="2" class="form-control textinput" onclick="move()" maxlength="254" id="id_email" onkeyup="isavail(this.value,this.getAttribute('data-id'))">
-                                      <p style="color:red;font-weight:bold"><span id="2"></span></p>
+                                      <p style="color:blue;font-weight:bold"><span id="2"></span></p>
 
                               </div>
                               
@@ -96,14 +96,14 @@
                               <div class="fieldWrapper">
                                   <label for="id_password2"class="down">Confirm Password</label>
                                   <input type="password" name="password2" data-id="3" class="form-control textinput" align="center" required id="id_password2" onkeyup="isavail(this.value,this.getAttribute('data-id'))">
-                                  <p style="color:red;font-weight:bold"><span id="3"></span></p>
+                                  <p style="color:blue;font-weight:bold"><span id="3"></span></p>
 
                               </div>
                               
                               <div class="fieldWrapper">
                                   <label for="id_bank_acc_no"class="down">College</label>
                                   <input type="text" name="college" data-id="5" class="form-control textinput" maxlength="16" required id="id_bank_acc_no" onkeyup="isavail(this.value,this.getAttribute('data-id'))">
-                                  <p style="color:red;font-weight:bold"><span id="5"></span></p>
+                                  <p style="color:blue;font-weight:bold"><span id="5"></span></p>
 
                               </div>
                               
@@ -112,7 +112,7 @@
                                   <p class="text-muted" style="font-weight: bold;">By clicking on below button, you agree with our <a href='#'>Terms and Conditions</a></p>
                               </div>
                               <button class="btn btn-info" type="button" onclick="subform()">Submit</button>
-                              <p style="color:red;font-weight:bold"><span id="4"></span></p>
+                              <p style="color:blue;font-weight:bold"><span id="4"></span></p>
                               </div>
                       </form> 
                   </div>
